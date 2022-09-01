@@ -1,0 +1,629 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+
+header {
+    width: auto;
+    height: 44px;
+    background-color: #333333;
+}
+
+.header-top {
+    margin: 0 auto;
+    width: 930px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-text {
+    color: #c2c1c1e4;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.apple-img {
+    width: 15px;
+    height: 15px;
+}
+
+.apple-img-find {
+    width: 17px;
+    height: 17px;
+    filter: invert(80%);
+}
+
+.apple-img-bag {
+    width: 17px;
+    height: 17px;
+    filter: invert(57%);
+}
+
+.header-under {
+    margin: 18px auto;
+    width: 930px;
+    height: 69px;
+    border-radius: 5px;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-box-p-one {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header-box-p {
+    font-size: 12px;
+}
+
+.header-box {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 168px;
+}
+
+.header-box img {
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.open-model-door {
+    color: #0071E3;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.madalTwo {
+    display: none;
+    opacity: 0;
+    transition: .5s ease;
+    width: 100%;
+    height: 300%;
+    background-color: #3a3838d8;
+    top: 0;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    backdrop-filter: blur(1px);
+
+}
+
+.modal {
+    text-align: center;
+    margin-top: 15px;
+    opacity: 0;
+    transition: .5s ease;
+    z-index: 1;
+    height: 1600px;
+    width: 816px;
+    background-color: white;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%, -50%)scale(1);
+    border-radius: 20px;
+}
+
+.container-modal {
+    margin: 80px auto;
+    width: 600px;
+}
+
+.foooo {
+    color: #636363;
+    border-radius: 12px;
+    border: 1px solid rgb(153, 153, 153);
+    font-size: 18px;
+    width: 540px;
+    height: 56px;
+}
+
+.text-customers {
+    margin-top: 46px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.akardion-color {
+    margin-top: 50px;
+    height: 800px;
+    width: 100%;
+    background-color: #F4F4F6;
+}
+
+.akardion-container {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.akardion-use-text {
+    text-align: left;
+    font-size: 13px;
+    color: #636363;
+}
+
+.box-acardion {
+    background-color: #0071E3;
+    height: 270px;
+}
+
+.acardion-one {
+    height: 135px;
+    background-color: #C55917;
+}
+
+.panal-boss-two-three {
+    margin-top: 60px;
+   margin-left:150px;
+}
+
+.accordion {
+    background-color: #F4F4F6;
+    font-weight: 500;
+    height: 136px;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    transition: 0.4s;
+}
+.boss-not-first{
+    background-color: #F4F4F6;
+    padding-top: 60px;
+}
+
+
+.panel {
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+.panel-first-box-three{
+    margin-top: 60px;
+}
+
+.panal-boss {
+    height: 200px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F4F6;
+}
+
+.panel-first {
+    color: rgb(54, 54, 54);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.panel-first-box {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.penal-one {
+    color: rgb(37, 37, 37);
+    padding-bottom: 25px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.penal-two {
+    color: rgb(37, 37, 37);
+    padding-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.penal-three {
+    padding-bottom: 25px;
+
+    color: #444;
+    font-size: 13px;
+}
+
+.penal-four {
+    color: rgb(37, 37, 37);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.penal-five {
+    font-weight: 500;
+    color: rgb(36, 35, 35);
+    font-size: 14px;
+}
+
+.penal-six {
+    color: #444;
+    font-size: 13px;
+}
+
+.panal-boss-two {
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+.open-model-door:hover {
+    text-decoration: underline;
+}
+
+
+
+
+main {
+    width: 1090px;
+    margin: 120px auto;
+
+}
+
+.p-new {
+    color: #C55917;
+}
+
+.p-buy {
+    color: #1D1D1F;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.p-from {
+    color: #1D1D1F;
+    font-size: 13px;
+}
+
+.main-top-right-shifd {
+    border-radius: 16px;
+    height: 37px;
+    width: 250px;
+    background: #F5F5F7;
+    text-align: center;
+}
+
+.main-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-top-right p {
+    padding-top: 10px;
+    margin-top: 13px;
+    color: #1D1D1F;
+    font-size: 12px;
+}
+
+.tw {
+    width: 300px;
+}
+
+.one {
+    margin-left: 46px
+}
+
+.box-img {
+
+    background-image: url(./img_ipone/iphone-13-pro-model-unselect-gallery-1-202207.jfif);
+    background-size: contain;
+    width: 750px;
+    height: 750px;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 140px;
+}
+
+.box-img-one {
+    transition: 0.40s;
+    background-image: url(./img_ipone/iphone-13-pro-finish-select-202207-6-7inch-alpinegreen\ \(1\).jfif);
+    background-size: contain;
+    width: 750px;
+    height: 750px;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 140px;
+}
+
+.box-img-two {
+    transition: 0.40s;
+
+    background-image: url(./img_ipone/iphone-13-pro-finish-select-202207-6-7inch-alpinegreen.jfif);
+    background-size: contain;
+    width: 750px;
+    height: 750px;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 140px;
+}
+
+.box-img-three {
+    transition: 0.40s;
+
+    background-image: url(./img_ipone/iphone-13-pro-finish-select-202207-6-7inch-gold.jfif);
+    background-size: contain;
+    width: 750px;
+    height: 750px;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    position: sticky;
+}
+
+.box-img-four {
+    transition: 0.40s;
+
+    background-image: url(./img_ipone/iphone-13-pro-finish-select-202207-6-7inch-graphite.jfif);
+    background-size: contain;
+    width: 750px;
+    height: 750px;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 140px;
+}
+
+.box-img-foyf {
+    transition: 0.40s;
+
+    background-image: url(./img_ipone/iphone-13-pro-finish-select-202207-6-7inch-sierrablue.jfif);
+    background-size: contain;
+    width: 750px;
+    height: 750px;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 140px;
+}
+
+.main-left {
+    height: 1600px;
+    width: 1090px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+.main-rigt {
+    width: 389px;
+    height: 100px;
+}
+
+.question-main-le {
+    margin-right: -70px;
+    margin-top: 34px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 23px;
+    color: #636363;
+}
+
+.box-pay {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 340px;
+    height: 85px;
+    border-radius: 15px;
+    padding-bottom: 0px;
+    border: 2px solid rgba(139, 139, 139, 0.979);
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.text-iphone {
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1D1D1F;
+}
+
+.box-pay-container {
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 13px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 70px;
+}
+
+.text-inch {
+    color: #787879;
+    font-size: 12px;
+
+}
+
+.text-price {
+    text-align: end;
+    width: 160px;
+}
+
+.text-price p {
+    padding-bottom: 2px;
+    color: #787879;
+    font-size: 12px;
+}
+
+.box-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 340px;
+    height: 85px;
+    border-radius: 15px;
+    padding-bottom: 0px;
+    background-color: #F5F5F7;
+}
+
+.box-info-container {
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 13px;
+    margin: 0 auto;
+    width: 300px;
+    height: 70px;
+}
+
+.text-need {
+    font-weight: 600;
+    font-size: 14px
+}
+
+.text-explore {
+    font-size: 14px;
+}
+
+.box-info-help {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-text-favorite {
+    margin-top: 67px;
+    margin-left: 10px;
+}
+
+.box-text-find {
+
+    color: #636363;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.box-text-find b {
+    color: #1D1D1F;
+    font-weight: 700;
+}
+
+.box-text-color {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1d1d1f;
+}
+
+.box-for-color {
+    margin-left: 9px;
+    margin-top: 40px;
+    width: 250px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.green {
+    width: 33px;
+    height: 33px;
+}
+
+.border-green {
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #0071E3;
+    padding: 5px;
+}
+
+.silver {
+    width: 33px;
+    border-radius: 50px;
+    height: 33px;
+}
+
+.border-silver {
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #0071E3;
+    padding: 5px;
+
+}
+
+.golg {
+    width: 33px;
+    border-radius: 50px;
+    height: 33px;
+}
+
+.border-gold {
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #0071E3;
+    padding: 5px;
+
+}
+
+.Graphite {
+    width: 33px;
+    border-radius: 50px;
+    height: 33px;
+}
+
+.border-Graphite {
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #0071E3;
+    padding: 5px;
+
+}
+
+.blue {
+    width: 33px;
+    border-radius: 50px;
+    height: 33px;
+}
+
+.border-blue {
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #0071E3;
+    padding: 5px;
+
+}
+
+.container-continuation {
+    margin-top: 150px;
+}
+.choose-tariff{
+    width: 480px;
+display: flex;
+margin-top: 10px;
+margin-left: 60px;
+justify-content: space-between;
+}
+.out{
+    width: 30px;
+    position: absolute;
+    top:10px;
+    left: 12px;
+}

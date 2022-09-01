@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test</title>
+    <script>
+        function Go() {
+            var o = document.getElementById('divForm')
+            var h = (o.style.height) ? parseInt(o.style.height) : 100
+            o.style.height = ((h == 100) ? 200 : 100) + 'px'
+
+        }
+    </script>
+    <style>
+        #divForm {
+            width: 200px;
+            height: 100px;
+            overflow: hidden;
+            border: 1px solid;
+        }
+        #podrobnee {
+            width: 100px;
+            height: 150px;
+            margin: 10px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id='divForm'>
+        <div id='podrobnee'>
+        </div>
+    </div>
+    <hr />
+    <input type='button' value='Go' onclick='Go()' />
+</body>
+</htm
